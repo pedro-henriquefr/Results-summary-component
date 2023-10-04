@@ -1,0 +1,136 @@
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-size: 18px;
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    height: 400px;
+    width: 600px;
+    box-shadow: 10px 5px 5px hsl(241, 100%, 89%);
+    border-radius: 28px;
+}
+
+.cartao .parte_1 {
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.cartao .parte_1 h3 {
+    color: rgba(255, 255, 255, 0.49);
+    padding: 20px;
+    font-size: 18px;
+}
+
+.cartao .parte_1 .circulo {
+    background: rgb(98,53,222);
+    background: linear-gradient(0deg, rgba(98,53,222,1) 0%, rgba(87,85,179,1) 100%);
+    padding: 50px;
+    border-radius: 100%;
+    text-align: center;
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartao .parte_1 .circulo h1 {
+    color: white;
+    font-size: 60px;
+    font: bold;
+}
+
+.cartao .parte_1 .circulo p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 15px;
+}
+
+.cartao .parte_1 .great {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.cartao .parte_1 p {
+    color: rgba(255, 255, 255, 0.49);
+    font-size: 15px;
+}
+
+.cartao .parte_2 {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+
+.cartao .parte_2 ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.cartao .parte_2 ul li {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 14px;
+}
+
+button {
+    width: 100%;
+    line-height: 46px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    display: block;
+    background-color: #303B59;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.cartao .parte_2 .s1 {
+    background-color: rgba(255, 0, 0, 0.118);
+}
+
+.cartao .parte_2 .reacao {
+    color: red;
+}
+
+.cartao .parte_2 .s2 {
+    background-color: rgba(255, 255, 0, 0.164);
+}
+
+.cartao .parte_2 .memoria{
+    color: yellow;
+}
+
+.cartao .parte_2 .s3 {
+    background-color: rgba(0, 128, 0, 0.181);
+}
+
+.cartao .parte_2 .verbal{
+    color: green;
+}
+
+.cartao .parte_2 .s4 {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+.cartao .parte_2 .visual{
+    color: blue;
+}
